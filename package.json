@@ -1,0 +1,21 @@
+{
+  "name": "demo-arg-docs",
+  "version": "2021.8.16.1",
+  "description": "Documentation for running / publishing projects.",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/xmagee/demo-arg-docs.git"
+  },
+  "author": "xmagee",
+  "bugs": {
+    "url": "https://gitlab.com/xmagee/demo-arg-docs/issues"
+  },
+  "homepage": "https://gitlab.com/xmagee/demo-arg-docs#readme",
+  "dependencies": {
+    "md-to-pdf": "^4.0.0"
+  }
+}
